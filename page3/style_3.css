@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Geologica:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a, p, li, h1, h2, h3, h4, h5, h6{
+    font-family: 'Fira Sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #133D8D;
+}
+nav{
+    width: 1296px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top_header{
+    width: 1296px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 294px;
+    align-items: center;
+}
+li{
+    list-style: none;
+    font-size: 14px;
+    color: white;
+}
+.line{
+    width: 1296px;
+    height: 1px;
+    background: white;
+}
+.bottom_header{
+    width: 1296px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+section{
+    width: 100%;
+    height: 923px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+    width: 1296px;
+    height: 743px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.cont h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+}
+.cont p{
+    font-size: 13px;
+    color: black;
+    font-weight: 550;
+}
+.square{
+    width: 4px;
+    height: 4px;
+    background: #133D8D;
+}
+.map_text{
+    width: 240px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.map{
+    width: 1296px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/map.png");
+}
+.map_cont{
+    width: 1206px;
+    height: 470px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.map_info{
+    width: 274px;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.info_cont{
+    width: 194px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.button_cont{
+    width: 194px;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 40%;
+    height: 100%;
+    background: #133D8D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+}
+button:focus{
+    opacity: 0.5;
+}
+.map_text_cont{
+    width: 194px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.i{
+    width: 194px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.i p{
+    width: 159px;
+    text-align: start;
+    font-size: 14px;
+}
+footer{
+    width: 100%;
+    height: 442px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #133D8D;
+}
+.f_cont{
+    width: 1296px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.f_logo{
+    width: 1296px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f_text_cont{
+    width: 1296px;
+    height: 242px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.f_text_1{
+    width: 306px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.f_text_2{
+    width: 306px;
+    height: 207px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.f_text_3{
+    width: 306px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.f_text_4{
+    width: 286px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: end;
+}
+p{
+    font-size: 14px;
+    color: white;
+}
+.s_4_h4{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
